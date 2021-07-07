@@ -1,32 +1,32 @@
 # question 1
-# def hello_name(user_name):
-#     print("Hello {}!".format(user_name.title()))
-#     pritn("Hello {}!" your favorite languageis {}!".format(user_name.title()))
+def hello_name(user_name):
+    print("Hello {}!".format(user_name.title()))
+    pritn("Hello {}!" your favorite languageis {}!".format(user_name.title()))
 
-# hello_name('Gil')
+hello_name('Gil')
 
-# def hello_name():
-#     user_name = input("enter your username: ")
-#     print("Hello " + user_name + ".")
-
-
-# hello_name()
+def hello_name():
+    user_name = input("enter your username: ")
+    print("Hello " + user_name + ".")
 
 
-# def max_num_in_list(a_list):
-#     max = a_list[0]
+hello_name()
 
 
-# for num in a_list:
-#     if num > max:
-#         max = num
-# print("max")
+def max_num_in_list(a_list):
+    max = a_list[0]
 
-# max_num_in_list([15, 298, -3, 24354])
+
+for num in a_list:
+    if num > max:
+        max = num
+print("max")
+
+max_num_in_list([15, 298, -3, 24354])
 
 
 def is_consecutive(a_list):
-    i = 0
+    i = 1
     status = True
     while i < len(a_list)-1:
         if a_list[i] + 1 == a_list[i + 1]:
